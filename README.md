@@ -1,16 +1,68 @@
-# React + Vite
+# ViviendaMorelia 🏠
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plataforma de búsqueda de vivienda estudiantil en Morelia, Michoacán. MVP para medir si una plataforma especializada reduce el tiempo de búsqueda frente a los grupos de Facebook.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React 19** + **Vite 8** — Frontend SPA
+- **Tailwind CSS 3** — Estilos utilitarios
+- **Despliegue**: Estático (Vercel / cualquier CDN)
 
-## React Compiler
+## Requisitos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Node.js** >= 20.19 o >= 22.12
+- **npm** >= 10
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clonar el repositorio
+git clone https://github.com/axelion14/alojamiento.git
+cd alojamiento
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm run dev
+```
+
+Abrir [http://localhost:5173](http://localhost:5173) en el navegador.
+
+## Comandos útiles
+
+| Comando | Descripción |
+|---------|-------------|
+| `npm run dev` | Servidor de desarrollo con HMR |
+| `npm run build` | Build de producción en `dist/` |
+| `npm run preview` | Vista previa del build de producción |
+| `npm run lint` | Revisión de código con ESLint |
+
+## Estructura del proyecto
+
+```
+src/
+├── App.jsx                  # Componente principal con toda la UI
+├── index.css                # Directivas de Tailwind
+├── main.jsx                 # Punto de entrada de React
+└── data/
+    └── propiedades.json     # 32 propiedades de Morelia
+```
+
+## Funcionalidades
+
+- **Búsqueda por texto** en título y descripción
+- **Filtros**: precio, género, zona, tipo, servicios (AND)
+- **Modal de detalle** con amenidades, reglas y contacto WhatsApp
+- **Sidebar colapsable** en móviles
+- **Diseño responsivo** (mobile-first con Tailwind)
+
+## Despliegue en Vercel
+
+Conectar el repositorio desde [vercel.com/import](https://vercel.com/import) — el archivo `vercel.json` ya maneja las rutas SPA.
+
+O desde la CLI:
+
+```bash
+npx vercel --prod
+```
