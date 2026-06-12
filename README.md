@@ -1,90 +1,51 @@
-# ViviendaMorelia 🏠 — Plataforma Antifraude de Vivienda Estudiantil
+# ViviendaMorelia
 
-Plataforma de búsqueda y validación de vivienda estudiantil en Morelia, Michoacán. Este MVP está diseñado específicamente para resolver de forma real y eficiente los problemas críticos de fraudes inmobiliarios y falsas expectativas en la renta de alojamientos para estudiantes de nuevo ingreso.
+Plataforma de búsqueda y validación de alojamiento estudiantil en Morelia, Michoacán. Este proyecto es un MVP diseñado para mitigar fraudes de arrendamiento y facilitar la verificación geográfica de propiedades cercanas a las principales instituciones educativas.
 
----
+## Funcionalidades Principales
 
-## 🚀 Requisitos Clave del MVP (Presentación al Comité)
+*   **Filtros en Tiempo Real:** Filtros de presupuesto máximo, género (Hombre, Mujer, Mixto) y servicios incluidos con actualización inmediata de la interfaz.
+*   **Geolocalización y Proximidad:** Mapa interactivo centrado en Morelia con la ubicación de las principales facultades (UMSNH, UNAM, ITM, UVAQ, Tec de Monterrey). Calcula de forma dinámica la distancia (fórmula de Haversine) y traza rutas de cercanía para el usuario.
+*   **Publicación y Verificación:** Registro simulado de estudiantes y arrendadores. Para publicar un anuncio con la insignia de "Arrendador Verificado", el propietario debe subir una identificación oficial y un comprobante de domicilio coincidente con la dirección registrada.
+*   **Gestión de Disponibilidad:** Exclusión automática de propiedades con estado "apartado" para evitar falsas expectativas y optimizar la conversión de búsqueda.
+*   **Panel de Demostración:** Módulo flotante para pruebas en vivo que permite cambiar el rol de usuario, alternar la visibilidad de propiedades reservadas y simular apartados en tiempo real.
 
-Esta versión incluye las **4 funcionalidades críticas** requeridas para la demostración de negocio:
+## Stack Tecnológico
 
-### 1. Filtros Críticos en Tiempo Real 💰
-*   **Presupuesto:** Barra deslizante interactiva que restringe resultados en tiempo real (Rango: `$1,000` - `$12,000` MXN).
-*   **Género:** Opciones de filtro adaptadas a la demanda real estudiantil (`Hombre`, `Mujer`, `Mixto`).
-*   **Servicios:** Filtrado cruzado (lógica tipo `AND`) para múltiples servicios (Wifi, Agua, Luz, Gas, Estacionamiento, Seguridad, etc.).
+*   React 19 (Frontend SPA)
+*   Vite 8 (Herramienta de construcción)
+*   Leaflet 1.9.4 (Renderizado de mapa y coordenadas)
+*   Tailwind CSS 3 (Estilos responsivos)
+*   Google Fonts - Outfit (Tipografía del sistema)
 
-### 2. Validación Geográfica (Mapa de Morelia) 📍
-*   **Mapa Interactivo:** Desarrollado con Leaflet.js, centrado en Morelia y optimizado con pines de precios flotantes (estilo Airbnb).
-*   **Coordenadas Universitarias Reales:** Ubicación de las principales escuelas y facultades de la ciudad:
-    *   *Ciudad Universitaria (UMSNH)* 🎓
-    *   *Facultad de Medicina y Odontología (UMSNH)* (Av. Ventura Puente) 🏥
-    *   *Campus UNAM Morelia* 🏫
-    *   *Instituto Tecnológico de Morelia (ITM)* 🔬
-    *   *Universidad Vasco de Quiroga (UVAQ)* ⛪
-    *   *Tec de Monterrey (ITESM)* 💻
-    *   *Facultad de Derecho (UMSNH)* ⚖️
-*   **Simulación de Proximidad:** Al elegir una universidad, se dibuja un **círculo de radio de 1 km** (cercanía a pie) en el mapa. Cada propiedad calcula su distancia por la fórmula de Haversine y dibuja una **línea discontinua de ruta** al ser seleccionada. El modal de detalles del inmueble lista las 3 escuelas más cercanas con estimación de minutos de caminata.
+## Instalación y Uso Local
 
-### 3. Seguridad Integrada (Sello Antifraude) 🛡️
-*   **Registro de Usuarios:** Sistema de roles persistente (`Estudiante` o `Arrendador`).
-*   **Publicación Certificada:** Para que un propietario publique un anuncio, debe realizar el flujo de validación:
-    1.  Cargar su *Identificación Oficial (INE/Pasaporte)*.
-    2.  Cargar un *Comprobante de Domicilio (CFE/Agua)* cuya dirección física coincida con el alojamiento.
-*   **Sello Verde:** Al completarse la validación, la propiedad se geolocaliza automáticamente en el mapa y recibe el sello de **"🛡️ Arrendador Verificado"**, reduciendo fraudes por depósitos falsos.
-
-### 4. Algoritmo Preventivo de Disponibilidad 🔒
-*   El grid oculta de forma automática cualquier alojamiento cuyo estado sea `'apartado'` para evitar que el estudiante genere falsas expectativas de conversión.
-*   Una barra de estado notifica cuántas propiedades han sido apartadas y protegidas de la visualización en la sesión activa.
-
----
-
-## 🧪 Guía para la Demostración en Vivo (Panel de Control)
-
-En la esquina inferior izquierda verás el widget flotante **`Panel de Simulación (Demostración)`** diseñado para que demuestres el comportamiento lógico ante el jurado:
-
-1.  **Login Rápido:** Haz clic en **"🔑 Ser Arrendador"** (Don Carlos) para publicar y verificar un inmueble al instante, o en **"🎓 Ser Estudiante"** (Mateo) para buscar y calcular distancias.
-2.  **Toggle de Apartadas:** Marca la casilla *"Ver propiedades apartadas (Demo)"* para desactivar temporalmente el filtro preventivo. Las propiedades apartadas aparecerán difuminadas con el sello de **🔒 Reservado**.
-3.  **Simular Reservas:** Cambia el estado de una propiedad libre a "Apartada" con un solo clic y observa cómo desaparece de la pantalla y el mapa de inmediato.
-4.  **Persistencia:** Todos los datos se guardan en el `localStorage` del navegador, por lo que puedes refrescar la página en cualquier momento de la presentación sin perder tus registros de prueba.
-
----
-
-## 🛠️ Stack Tecnológico
-
-- **React 19** + **Vite 8** — Frontend SPA
-- **Leaflet 1.9.4** — Mapa interactivo (sin peer dependencies conflictivas)
-- **Tailwind CSS 3** — Estilos y diseño responsivo premium
-- **Google Fonts (Outfit)** — Tipografía de alta calidad
-
----
-
-## 💻 Instalación y Uso Local
+Siga estos pasos para clonar e iniciar el entorno de desarrollo local:
 
 ```bash
-# Clonar el repositorio
+# Clonar el proyecto
 git clone https://github.com/axelion14/alojamiento.git
 cd alojamiento
 
 # Instalar dependencias
 npm install
 
-# Iniciar servidor de desarrollo en puerto alternativo (ej: 8080)
+# Iniciar servidor de desarrollo en puerto alternativo
 npm run dev -- --port 8080
 ```
 
-Abrir [http://localhost:8080](http://localhost:8080) en el navegador.
+El servidor estará disponible en [http://localhost:8080](http://localhost:8080).
 
----
-
-## 📂 Estructura del Proyecto
+## Estructura de Directorios
 
 ```text
 src/
-├── App.jsx                     # Componente principal (Registro, Vistas, Filtros y Modales)
-├── index.css                   # Tailwind imports + Tipografía Outfit
-├── main.jsx                    # Punto de entrada de React
+├── App.jsx                     # Vistas, modales y lógica de filtros
+├── index.css                   # Importaciones de Tailwind y fuentes
+├── main.jsx                    # Entrada de la aplicación React
 ├── components/
-│   └── MapaMorelia.jsx         # Mapa Leaflet, coordenadas universitarias y Haversine
+│   └── MapaMorelia.jsx         # Componente de mapa y lógica de distancias
 └── data/
-    └── propiedades.json        # Datos locales con lat, lng, isVerified y status
+    └── propiedades.json        # Datos locales enriquecidos
 ```
+
