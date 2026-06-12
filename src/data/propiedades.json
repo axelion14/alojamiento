@@ -1,0 +1,1086 @@
+[
+  {
+    "id": 1,
+    "titulo": "Habitación amueblada en Felicitas del Río",
+    "descripcion": "Habitación privada con baño compartido, a 10 minutos caminando de la Ciudad Universitaria UMSNH. Incluye wifi, agua y luz. Ambiente tranquilo y seguro, perfecto para estudiantes de nuevo ingreso.",
+    "precio": 2800,
+    "genero": "Mixto",
+    "zona": "Felicitas del Río",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Estacionamiento"
+    ],
+    "amenidades": [
+      "Área de lavado",
+      "Patio común",
+      "Cocina compartida"
+    ],
+    "reglas": [
+      "No se permite alcohol",
+      "Horario de visita hasta 10pm",
+      "Máximo 1 mascota pequeña"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800"
+    ],
+    "contacto": "524431234567",
+    "lat": 19.693906,
+    "lng": -101.204126,
+    "isVerified": false,
+    "status": "disponible"
+  },
+  {
+    "id": 2,
+    "titulo": "Departamento en Cuauhtémoc cerca de Medicina",
+    "descripcion": "Departamento de 2 recámaras en el corazón de Cuauhtémoc, ideal para estudiantes de Medicina y Odontología. Se aceptan parejas. Cerca de la Facultad de Salud y del Hospital General.",
+    "precio": 5500,
+    "genero": "Mixto",
+    "zona": "Cuauhtémoc",
+    "tipo": "Departamento",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento"
+    ],
+    "amenidades": [
+      "Balcón",
+      "Área de lavado",
+      "Cocina integral"
+    ],
+    "reglas": [
+      "No fiestas los días entre semana",
+      "Depósito de garantía de 1 mes"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800"
+    ],
+    "contacto": "524437654321",
+    "lat": 19.701738,
+    "lng": -101.180075,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 3,
+    "titulo": "Cuarto en Centro Histórico para estudiantes de Leyes",
+    "descripcion": "Espacio acogedor a una cuadra de la Facultad de Derecho UMSNH. Incluye todos los servicios e internet de fibra óptica. Caminando llegas al Palacio de Gobierno y a la Catedral.",
+    "precio": 3200,
+    "genero": "Solo Hombres",
+    "zona": "Centro",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas"
+    ],
+    "amenidades": [
+      "Cocina equipada",
+      "Área de lavado",
+      "Patio interior"
+    ],
+    "reglas": [
+      "Solo estudiantes o profesionistas",
+      "No mascotas",
+      "Límite de 2 huéspedes por habitación"
+    ],
+    "imagenes": [],
+    "contacto": "524439876543",
+    "lat": 19.701537,
+    "lng": -101.193235,
+    "isVerified": true,
+    "status": "apartado"
+  },
+  {
+    "id": 4,
+    "titulo": "Loft moderno en Altozano",
+    "descripcion": "Loft de diseño en zona Altozano, cerca de UVAQ, Tec de Monterrey y UNLA. Espacio amplio con excelente iluminación natural y acceso a áreas verdes del fraccionamiento.",
+    "precio": 7800,
+    "genero": "Mixto",
+    "zona": "Altozano",
+    "tipo": "Departamento",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento",
+      "Seguridad"
+    ],
+    "amenidades": [
+      "Terraza compartida",
+      "Gimnasio del edificio",
+      "Área de lavado",
+      "Roof garden"
+    ],
+    "reglas": [
+      "Se admiten mascotas con depósito extra",
+      "No fumar dentro del departamento",
+      "Mantenimiento mensual $500"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800"
+    ],
+    "contacto": "524431122334",
+    "lat": 19.66312,
+    "lng": -101.149066,
+    "isVerified": false,
+    "status": "disponible"
+  },
+  {
+    "id": 5,
+    "titulo": "Habitación para mujeres en Ventura Puente",
+    "descripcion": "Habitación en zona tranquila de Ventura Puente, ideal para estudiantes de las facultades de Salud UMSNH. Se aceptan solo mujeres. Cerca del parque y de la clínica del IMSS.",
+    "precio": 2500,
+    "genero": "Solo Mujeres",
+    "zona": "Ventura Puente",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz"
+    ],
+    "amenidades": [
+      "Cocina compartida",
+      "Patio con tendedero",
+      "Jardín pequeño"
+    ],
+    "reglas": [
+      "Solo mujeres",
+      "No visitas después de 11pm",
+      "Máximo 1 mascota pequeña"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=800"
+    ],
+    "contacto": "524435566778",
+    "lat": 19.697525,
+    "lng": -101.182873,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 6,
+    "titulo": "Estudio en Cuauhtémoc cerca del Tren Ligero",
+    "descripcion": "Estudio tipo loft con todo incluido a 5 minutos de la estación del Tren Ligero. Ideal para estudiantes que usan transporte público para moverse entre campus.",
+    "precio": 4200,
+    "genero": "Solo Hombres",
+    "zona": "Cuauhtémoc",
+    "tipo": "Estudio",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas"
+    ],
+    "amenidades": [
+      "Cocina integral",
+      "Área de lavado",
+      "Closet amplio"
+    ],
+    "reglas": [
+      "Solo hombres",
+      "No se permiten fiestas",
+      "Depósito de 1 mes"
+    ],
+    "imagenes": [],
+    "contacto": "524439988776",
+    "lat": 19.701676,
+    "lng": -101.180506,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 7,
+    "titulo": "Casa compartida en Chapultepec",
+    "descripcion": "Casa grande en la colonia Chapultepec, a 15 minutos del centro y cerca de CU. Cuarto con closet y escritorio. Ambiente de compañerismo entre estudiantes de distintas facultades.",
+    "precio": 3500,
+    "genero": "Mixto",
+    "zona": "Chapultepec",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento"
+    ],
+    "amenidades": [
+      "Jardín grande",
+      "Cocina equipada",
+      "Área de lavado",
+      "Sala de estar"
+    ],
+    "reglas": [
+      "Responsable de limpieza de área común una vez por semana",
+      "No ruido después de 11pm"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800"
+    ],
+    "contacto": "524431155667",
+    "lat": 19.698803,
+    "lng": -101.170968,
+    "isVerified": false,
+    "status": "apartado"
+  },
+  {
+    "id": 8,
+    "titulo": "Departamento en Lomas de Morelia",
+    "descripcion": "Departamento amueblado en Lomas de Morelia, a 5 minutos de UVAQ. Sala-comedor, cocina integral y dos recámaras. Estacionamiento para un auto. Seguridad privada 24/7.",
+    "precio": 6500,
+    "genero": "Mixto",
+    "zona": "Lomas de Morelia",
+    "tipo": "Departamento",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento",
+      "Seguridad"
+    ],
+    "amenidades": [
+      "Balcón con vista",
+      "Cocina integral",
+      "Closet walking",
+      "Área de lavado"
+    ],
+    "reglas": [
+      "No mascotas",
+      "No subarrendar",
+      "Mantenimiento incluido en renta"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800"
+    ],
+    "contacto": "524432223344",
+    "lat": 19.714631,
+    "lng": -101.149685,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 9,
+    "titulo": "Habitación económica en Jacarandas",
+    "descripcion": "Habitación sencilla pero cómoda en colonia Jacarandas. Baño compartido con un estudiante más. Ideal para quien busca el mejor precio. Ruta directa al centro y a CU.",
+    "precio": 1800,
+    "genero": "Mixto",
+    "zona": "Jacarandas",
+    "tipo": "Habitación",
+    "servicios": [
+      "Agua",
+      "Luz"
+    ],
+    "amenidades": [
+      "Cocina compartida"
+    ],
+    "reglas": [
+      "Pago puntual los días 5 de cada mes",
+      "No visitas sin previo aviso"
+    ],
+    "imagenes": [],
+    "contacto": "524438889900",
+    "lat": 19.714671,
+    "lng": -101.217517,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 10,
+    "titulo": "Departamento dúplex en Campestre",
+    "descripcion": "Dúplex de lujo en la colonia Campestre. Dos niveles, tres recámaras, jardín privado y cochera para dos autos. Perfecto para grupos de hasta 4 estudiantes. Zona residencial muy segura.",
+    "precio": 9500,
+    "genero": "Mixto",
+    "zona": "Campestre",
+    "tipo": "Departamento",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento",
+      "Seguridad"
+    ],
+    "amenidades": [
+      "Jardín privado",
+      "Terraza",
+      "Cocina integral",
+      "Área de lavado",
+      "Chimenea"
+    ],
+    "reglas": [
+      "No fiestas grandes",
+      "Depósito de 2 meses",
+      "Contrato mínimo 6 meses"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800"
+    ],
+    "contacto": "524435551234",
+    "lat": 19.687723,
+    "lng": -101.178055,
+    "isVerified": false,
+    "status": "disponible"
+  },
+  {
+    "id": 11,
+    "titulo": "Habitación con vista en Tres Marías",
+    "descripcion": "Habitación individual con ventanal y vista a la ciudad en fraccionamiento Tres Marías. Baño privado. Ambiente familiar y seguro. Cerca del campus UVAQ y Tec de Monterrey.",
+    "precio": 4500,
+    "genero": "Solo Mujeres",
+    "zona": "Tres Marías",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento"
+    ],
+    "amenidades": [
+      "Baño privado",
+      "Closet grande",
+      "Terraza compartida",
+      "Área de lavado"
+    ],
+    "reglas": [
+      "Solo mujeres estudiantes",
+      "No fumar",
+      "No mascotas"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1595526114035-0d46ed16cfbf?w=800"
+    ],
+    "contacto": "524436677889",
+    "lat": 19.711399,
+    "lng": -101.118105,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 12,
+    "titulo": "Casa completa en Miguel Hidalgo",
+    "descripcion": "Casa independiente de 3 recámaras en colonia Miguel Hidalgo. Ideal para grupo de amigos que quieran vivir juntos. Cocina grande, patio trasero y cochera para 2 autos.",
+    "precio": 8500,
+    "genero": "Mixto",
+    "zona": "Miguel Hidalgo",
+    "tipo": "Casa",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento"
+    ],
+    "amenidades": [
+      "Patio grande",
+      "Cocina amplia",
+      "Área de lavado",
+      "Sala-comedor"
+    ],
+    "reglas": [
+      "Contrato mínimo 1 año",
+      "Depósito de garantía",
+      "Mantenimiento de jardín por cuenta del inquilino"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800"
+    ],
+    "contacto": "524434445566",
+    "lat": 19.708339,
+    "lng": -101.217684,
+    "isVerified": true,
+    "status": "apartado"
+  },
+  {
+    "id": 13,
+    "titulo": "Estudio amueblado en Lomas del Valle",
+    "descripcion": "Estudio moderno con cocina integral y baño completo en Lomas del Valle. Ideal para una persona. A 10 minutos de CU y del Tec de Morelia. Edificio con seguridad.",
+    "precio": 5200,
+    "genero": "Mixto",
+    "zona": "Lomas del Valle",
+    "tipo": "Estudio",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento",
+      "Seguridad"
+    ],
+    "amenidades": [
+      "Cocina integral",
+      "Closet walking",
+      "Área de lavado"
+    ],
+    "reglas": [
+      "No mascotas",
+      "No subarrendar",
+      "Mantenimiento mensual $300"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=800"
+    ],
+    "contacto": "524437778899",
+    "lat": 19.685998,
+    "lng": -101.218601,
+    "isVerified": false,
+    "status": "disponible"
+  },
+  {
+    "id": 14,
+    "titulo": "Habitación en Villas del Pedregal",
+    "descripcion": "Habitación con baño privado en casa familiar en Villas del Pedregal. Zona segura y tranquila, cerca del Tec de Morelia. Incluye alimentos los 3 tiempos si se acuerda.",
+    "precio": 3800,
+    "genero": "Solo Mujeres",
+    "zona": "Villas del Pedregal",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas"
+    ],
+    "amenidades": [
+      "Baño privado",
+      "Cocina compartida",
+      "Jardín",
+      "Área de lavado"
+    ],
+    "reglas": [
+      "Solo mujeres",
+      "No alcohol en la habitación",
+      "Horario de entrada libre pero con aviso"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800"
+    ],
+    "contacto": "524431234890",
+    "lat": 19.701775,
+    "lng": -101.277258,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 15,
+    "titulo": "Departamento en Santiaguito",
+    "descripcion": "Departamento de 2 recámaras en Santiaguito, cerca de la Preparatoria 2 de la UMSNH. Bien comunicado con el centro y CU. Cochera techada para un auto.",
+    "precio": 4800,
+    "genero": "Mixto",
+    "zona": "Santiaguito",
+    "tipo": "Departamento",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento"
+    ],
+    "amenidades": [
+      "Cocina equipada",
+      "Área de lavado",
+      "Patio de servicio"
+    ],
+    "reglas": [
+      "No mascotas",
+      "No fiestas ruidosas",
+      "Depósito de 1 mes"
+    ],
+    "imagenes": [],
+    "contacto": "524439988111",
+    "lat": 19.722097,
+    "lng": -101.196326,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 16,
+    "titulo": "Habitación premium en Bosques de Morelia",
+    "descripcion": "Habitación espaciosa con cama king size y escritorio en Bosques de Morelia. Casa con acabados de lujo, jardín con asador y alberca. A 20 minutos de CU.",
+    "precio": 6000,
+    "genero": "Mixto",
+    "zona": "Bosques de Morelia",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento",
+      "Seguridad"
+    ],
+    "amenidades": [
+      "Alberca",
+      "Asador",
+      "Jardín grande",
+      "Baño privado",
+      "Cocina compartida",
+      "Área de lavado"
+    ],
+    "reglas": [
+      "Depósito de 1 mes",
+      "No fumar en interiores",
+      "Uso de alberca con horario"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800"
+    ],
+    "contacto": "524431122336",
+    "lat": 19.684116,
+    "lng": -101.23653,
+    "isVerified": false,
+    "status": "disponible"
+  },
+  {
+    "id": 17,
+    "titulo": "Cuarto pequeño en La Paloma",
+    "descripcion": "Cuarto económico en colonia La Paloma. Baño compartido. Ideal para estudiante que solo necesita un lugar para dormir y estudiar. Cerca de la facultad de Contaduría.",
+    "precio": 1500,
+    "genero": "Solo Hombres",
+    "zona": "La Paloma",
+    "tipo": "Habitación",
+    "servicios": [
+      "Agua",
+      "Luz"
+    ],
+    "amenidades": [
+      "Cocina básica",
+      "Área de lavado compartida"
+    ],
+    "reglas": [
+      "Solo hombres",
+      "Pago por adelantado",
+      "No invitados sin autorización"
+    ],
+    "imagenes": [],
+    "contacto": "524437778800",
+    "lat": 19.684427,
+    "lng": -101.19074,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 18,
+    "titulo": "Departamento en Torreón Nuevo",
+    "descripcion": "Departamento recién remodelado en Torreón Nuevo. Sala, cocina integral, 2 recámaras y 1 baño completo. A 15 minutos del centro caminando. Muy buena iluminación.",
+    "precio": 5800,
+    "genero": "Mixto",
+    "zona": "Torreón Nuevo",
+    "tipo": "Departamento",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas"
+    ],
+    "amenidades": [
+      "Cocina integral",
+      "Balcón",
+      "Área de lavado"
+    ],
+    "reglas": [
+      "No mascotas grandes",
+      "Contrato mínimo 6 meses",
+      "Depósito de 1 mes"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800"
+    ],
+    "contacto": "524432225566",
+    "lat": 19.734939,
+    "lng": -101.201871,
+    "isVerified": true,
+    "status": "apartado"
+  },
+  {
+    "id": 19,
+    "titulo": "Habitación con alimentos en Manantiales",
+    "descripcion": "Habitación en casa de familia en Manantiales. Incluye alimentos de lunes a viernes (desayuno y comida). Ideal para estudiantes de primer año que vienen de fuera. Ambiente familiar.",
+    "precio": 4200,
+    "genero": "Solo Mujeres",
+    "zona": "Manantiales",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas"
+    ],
+    "amenidades": [
+      "Comidas incluidas L-V",
+      "Cocina compartida",
+      "Área de lavado",
+      "Jardín"
+    ],
+    "reglas": [
+      "Solo mujeres",
+      "Horario de llegada 10pm entre semana",
+      "No invitados hombres en la habitación"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=800"
+    ],
+    "contacto": "524434449999",
+    "lat": 19.711826,
+    "lng": -101.233366,
+    "isVerified": false,
+    "status": "disponible"
+  },
+  {
+    "id": 20,
+    "titulo": "Penthouse en Vista Bella",
+    "descripcion": "Penthouse de lujo en Vista Bella con terraza privada y vista panorámica de Morelia. 3 recámaras, 2 baños, cocina integral. Estacionamiento para 2 autos. Seguridad 24 hrs.",
+    "precio": 12000,
+    "genero": "Mixto",
+    "zona": "Vista Bella",
+    "tipo": "Departamento",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento",
+      "Seguridad"
+    ],
+    "amenidades": [
+      "Terraza privada",
+      "Vista panorámica",
+      "Cocina integral",
+      "Área de lavado",
+      "Closet walking",
+      "Gimnasio"
+    ],
+    "reglas": [
+      "Depósito de 2 meses",
+      "No fiestas sin autorización",
+      "Contrato mínimo 1 año"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800"
+    ],
+    "contacto": "524437771122",
+    "lat": 19.681601,
+    "lng": -101.196337,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 21,
+    "titulo": "Habitación en Las Américas",
+    "descripcion": "Habitación individual en condominio de Las Américas. Baño compartido con máximo 2 personas. Zona comercial con acceso a centros comerciales, bancos y transporte público.",
+    "precio": 3000,
+    "genero": "Mixto",
+    "zona": "Las Américas",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Estacionamiento"
+    ],
+    "amenidades": [
+      "Cocina compartida",
+      "Área de lavado",
+      "Sala de TV"
+    ],
+    "reglas": [
+      "No mascotas",
+      "Horario de silencio 11pm a 7am",
+      "Limpieza de áreas comunes rotativa"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=800"
+    ],
+    "contacto": "524435551111",
+    "lat": 19.691858,
+    "lng": -101.164225,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 22,
+    "titulo": "Departamento cerca del Tecnológico",
+    "descripcion": "Departamento de 1 recámara en Fray Antonio de Lisboa, a 3 calles del Instituto Tecnológico de Morelia. Ideal para estudiante de ingeniería. Cochera techada y roof garden.",
+    "precio": 4800,
+    "genero": "Mixto",
+    "zona": "Fray Antonio de Lisboa",
+    "tipo": "Departamento",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento"
+    ],
+    "amenidades": [
+      "Roof garden",
+      "Cocina integral",
+      "Área de lavado",
+      "Closet walking"
+    ],
+    "reglas": [
+      "No mascotas",
+      "Mantenimiento mensual $200",
+      "Depósito de 1 mes"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800"
+    ],
+    "contacto": "524432226677",
+    "lat": 19.722013,
+    "lng": -101.187224,
+    "isVerified": false,
+    "status": "disponible"
+  },
+  {
+    "id": 23,
+    "titulo": "Casa estudiantil en Universidad",
+    "descripcion": "Casa diseñada para estudiantes en la colonia Universidad. 4 cuartos individuales, 2 baños compartidos, cocina grande, sala y jardín. A 1 cuadra de Ciudad Universitaria.",
+    "precio": 3200,
+    "genero": "Mixto",
+    "zona": "Universidad",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento"
+    ],
+    "amenidades": [
+      "Jardín",
+      "Cocina grande",
+      "Sala amueblada",
+      "Área de lavado",
+      "Terraza"
+    ],
+    "reglas": [
+      "No alcohol en áreas comunes después de 11pm",
+      "Cada quien lava sus trastes",
+      "No visitas overnight sin avisar"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1592595896616-c37162298647?w=800"
+    ],
+    "contacto": "524439992211",
+    "lat": 19.688707,
+    "lng": -101.203711,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 24,
+    "titulo": "Habitación ejecutiva en San Juanito Itzícuaro",
+    "descripcion": "Habitación con baño privado y closet amplio en San Juanito Itzícuaro. Casa con estacionamiento para visitas. Tranquilo y cerca de la Preparatoria 3. Ideal para estudiante de último semestre.",
+    "precio": 3600,
+    "genero": "Solo Hombres",
+    "zona": "San Juanito Itzícuaro",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento"
+    ],
+    "amenidades": [
+      "Baño privado",
+      "Closet amplio",
+      "Cocina compartida",
+      "Área de lavado"
+    ],
+    "reglas": [
+      "Solo hombres",
+      "No fumar",
+      "No mascotas"
+    ],
+    "imagenes": [],
+    "contacto": "524438889922",
+    "lat": 19.695939,
+    "lng": -101.260549,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 25,
+    "titulo": "Loft minimalista en Altozano",
+    "descripcion": "Loft minimalista de 50m2 en el segundo nivel de un edificio en Altozano. Puertas de granero, cocina abierta, pisos de madera. A 5 minutos de UVAQ y Tec de Monterrey.",
+    "precio": 7200,
+    "genero": "Mixto",
+    "zona": "Altozano",
+    "tipo": "Estudio",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento",
+      "Seguridad"
+    ],
+    "amenidades": [
+      "Gimnasio",
+      "Lavandería",
+      "Salón de usos múltiples",
+      "Roof garden"
+    ],
+    "reglas": [
+      "No mascotas",
+      "No fumar",
+      "Mantenimiento mensual $400"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3d2?w=800"
+    ],
+    "contacto": "524434443333",
+    "lat": 19.663049,
+    "lng": -101.151066,
+    "isVerified": false,
+    "status": "apartado"
+  },
+  {
+    "id": 26,
+    "titulo": "Habitación doble en Felicitas del Río",
+    "descripcion": "Habitación para 2 personas en Felicitas del Río. Ideal para amigos o hermanos que estudien juntos. Dos camas individuales, dos escritorios y closet compartido. Frente a CU.",
+    "precio": 2200,
+    "genero": "Mixto",
+    "zona": "Felicitas del Río",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas"
+    ],
+    "amenidades": [
+      "Cocina compartida",
+      "Área de lavado",
+      "Patio"
+    ],
+    "reglas": [
+      "Precio por persona",
+      "No visitas después de 10pm",
+      "Limpieza semanal incluida"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800"
+    ],
+    "contacto": "524432224455",
+    "lat": 19.693192,
+    "lng": -101.2049,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 27,
+    "titulo": "Departamento en Ventura Puente con estacionamiento",
+    "descripcion": "Departamento en planta baja de edificio en Ventura Puente. 2 recámaras, sala, cocina, baño completo y patio de servicio. A 2 cuadras de la Facultad de Enfermería.",
+    "precio": 5200,
+    "genero": "Mixto",
+    "zona": "Ventura Puente",
+    "tipo": "Departamento",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento"
+    ],
+    "amenidades": [
+      "Patio de servicio",
+      "Cocina equipada",
+      "Área de lavado"
+    ],
+    "reglas": [
+      "No mascotas grandes",
+      "No subarrendar",
+      "Depósito de 1 mes"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?w=800"
+    ],
+    "contacto": "524439992200",
+    "lat": 19.698322,
+    "lng": -101.182744,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 28,
+    "titulo": "Casa antigua en el Centro",
+    "descripcion": "Casa colonial restaurada en el Centro Histórico. Cuartos grandes con techos altos y ladrillo visto. Cocina vintage equipada. Patio central con fuente. A 2 calles de Bellas Artes.",
+    "precio": 4000,
+    "genero": "Mixto",
+    "zona": "Centro",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas"
+    ],
+    "amenidades": [
+      "Patio central",
+      "Cocina vintage",
+      "Sala común",
+      "Área de lavado",
+      "Terraza"
+    ],
+    "reglas": [
+      "Cuidar el patrimonio histórico",
+      "No hacer ruido después de 10pm",
+      "No fiestas en el edificio"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800"
+    ],
+    "contacto": "524437778899",
+    "lat": 19.70261,
+    "lng": -101.19295,
+    "isVerified": false,
+    "status": "disponible"
+  },
+  {
+    "id": 29,
+    "titulo": "Habitación en residencial Campestre",
+    "descripcion": "Habitación de lujo en casa residencial en Campestre. Baño privado, acceso a jardín, alberca y asador. Ideal para estudiante que busca comodidad y espacio. Renta incluye mantenimiento.",
+    "precio": 5500,
+    "genero": "Mixto",
+    "zona": "Campestre",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento",
+      "Seguridad"
+    ],
+    "amenidades": [
+      "Alberca",
+      "Asador",
+      "Jardín grande",
+      "Baño privado",
+      "Cocina compartida"
+    ],
+    "reglas": [
+      "No fumar",
+      "Depósito de 1 mes",
+      "Uso de alberca con límite de horario"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800"
+    ],
+    "contacto": "524431122337",
+    "lat": 19.687811,
+    "lng": -101.178321,
+    "isVerified": true,
+    "status": "disponible"
+  },
+  {
+    "id": 30,
+    "titulo": "Estudio económico en Jacarandas",
+    "descripcion": "Estudio pequeño pero funcional en colonia Jacarandas. Ideal para estudiante que busca independencia a bajo costo. Baño completo y cocineta. Ruta de camión directa al centro.",
+    "precio": 3200,
+    "genero": "Mixto",
+    "zona": "Jacarandas",
+    "tipo": "Estudio",
+    "servicios": [
+      "Agua",
+      "Luz"
+    ],
+    "amenidades": [
+      "Cocineta",
+      "Baño completo",
+      "Closet pequeño"
+    ],
+    "reglas": [
+      "No mascotas",
+      "Pago puntual",
+      "Contrato mínimo 3 meses"
+    ],
+    "imagenes": [],
+    "contacto": "524439992233",
+    "lat": 19.717122,
+    "lng": -101.218703,
+    "isVerified": true,
+    "status": "apartado"
+  },
+  {
+    "id": 31,
+    "titulo": "Habitación con jardín en Lomas del Valle",
+    "descripcion": "Habitación con acceso directo al jardín en casa de Lomas del Valle. Cama matrimonial, burós y lámpara de lectura. Ambiente relajado y familiar. Cerca de plaza comercial.",
+    "precio": 3800,
+    "genero": "Solo Mujeres",
+    "zona": "Lomas del Valle",
+    "tipo": "Habitación",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas"
+    ],
+    "amenidades": [
+      "Jardín",
+      "Cocina compartida",
+      "Área de lavado",
+      "Baño privado"
+    ],
+    "reglas": [
+      "Solo mujeres estudiantes",
+      "No mascotas",
+      "No fumar en la habitación"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1598228723793-5272bba3a55f?w=800"
+    ],
+    "contacto": "524436667788",
+    "lat": 19.686219,
+    "lng": -101.218543,
+    "isVerified": false,
+    "status": "disponible"
+  },
+  {
+    "id": 32,
+    "titulo": "Penthouse estudio en Altozano",
+    "descripcion": "Estudio en el último piso de un edificio en Altozano. VENTANALES de piso a techo con vista a toda la ciudad de Morelia. Cocina integral con isla, baño con tina de hidromasaje.",
+    "precio": 8500,
+    "genero": "Mixto",
+    "zona": "Altozano",
+    "tipo": "Estudio",
+    "servicios": [
+      "Wifi",
+      "Agua",
+      "Luz",
+      "Gas",
+      "Estacionamiento",
+      "Seguridad"
+    ],
+    "amenidades": [
+      "Vista panorámica",
+      "Tina de hidromasaje",
+      "Gimnasio",
+      "Roof garden",
+      "Lavandería"
+    ],
+    "reglas": [
+      "No mascotas",
+      "No fumar",
+      "Mantenimiento mensual $500",
+      "Contrato mínimo 6 meses"
+    ],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800"
+    ],
+    "contacto": "524431199887",
+    "lat": 19.661932,
+    "lng": -101.151197,
+    "isVerified": true,
+    "status": "disponible"
+  }
+]
